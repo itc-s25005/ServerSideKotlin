@@ -50,6 +50,9 @@ dependencies {
 
     // argon2 を使うためのライブラリ
     implementation("org.bouncycastle:bcprov-jdk18on:1.84")
+
+    // AOP を使うためのライブラリ追加
+    implementation("org.springframework.boot:spring-boot-starter-aspectj")
 }
 
 kotlin {
