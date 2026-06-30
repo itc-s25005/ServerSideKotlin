@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: book-manager
+  datasource:
+    url: jdbc:mariadb://127.0.0.1:3316/book_manager
+    username: boot
+    password: spring
+    driver-class-name: org.mariadb.jdbc.Driver
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password: null
+
+logging:
+  level:
+    root: info
+
+    server:
+      servlet:
+        session:
+          cookie:
+            same-site: none
+            secure: on
+            http-only: on
+
