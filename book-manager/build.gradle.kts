@@ -45,9 +45,6 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json")
     implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.8.0")
 
-    //spring security
-    //implementation("org.springframework.boot:spring-boot-starter-security")
-
     // argon2 を使うためのライブラリ
     implementation("org.bouncycastle:bcprov-jdk18on:1.84")
 
